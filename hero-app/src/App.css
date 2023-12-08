@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: linear-gradient(to right, #1f242d, #0ef);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.favorite {
+  color: red;
+  cursor: pointer;
+}
+
+.notfavorite {
+  cursor: pointer;
+}
